@@ -1,0 +1,37 @@
+\documentclass{article}  % This specifies the document class
+
+\usepackage{amsmath}  % Load packages as needed
+\usepackage{multicol}
+
+\title{My First LaTeX Document}  % Document title
+\author{Your Name}  % Author name
+\date{\today}  % Date (use \today for the current date)
+
+\begin{document}  % Start of the document
+
+\maketitle  % Create the title
+
+\section{Introduction}  % Section heading
+This is a simple LaTeX document. You can write text here and format it using LaTeX commands.
+
+\section{Mathematics}  % Another section heading
+Here is an example of a mathematical equation:
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+\section{Multi-Column Layout}
+\begin{multicols}{2}
+This is an example of a two-column layout. You can write text here, and it will flow into the next column when it reaches the end of the current column.
+
+You can continue writing as much as you want. LaTeX will automatically handle the column balancing.
+
+\columnbreak  % Optional: Force a column break
+
+This text will continue in the next column if needed.
+\end{multicols}
+
+\section{Conclusion}
+This is the conclusion of your document. You can add more sections and content as needed.
+
+\end{document}  % End of the document
